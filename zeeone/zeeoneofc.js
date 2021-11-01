@@ -13,9 +13,9 @@ ${petik}│◦➛${ucapannya2}
 
 ┌❏ *DEVICE*
 ${petik}│◦➛Whatsapp : ${wa_version}
-│◦➛Merk HP : ${device_manufacturer}
-│◦➛Versi HP : ${device_model}
-│◦➛Versi OS : ${os_version}
+│◦➛Manufacturer : ${device_manufacturer}
+│◦➛Device : ${device_model}
+│◦➛Android : ${os_version}
 │◦➛RAM : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 │◦➛MCC : ${mcc}
 └❏ MNC : ${mnc}${petik}
@@ -110,7 +110,7 @@ ${petik}└❒ ${prefix}anime${petik} _random_
 `
 }
 const allmenu = (prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensiii, tekss)  => {
-	return`❏───「 *WEA BOT* 」───❏
+	return`❏───「 *NEKO BOT* 」───❏
      
 ┌❏ *INDONESIA TIME*
 ${petik}│◦➛ WIB : ${timuu}
@@ -655,7 +655,7 @@ ${petik}│◦ ${prefix}rikagusriani
 │
 └─❑「 MENU BOT 」
 
-❏───「 *WEA BOT* 」───❏
+❏───「 *NEKO BOT* 」───❏
 `
 }
 
